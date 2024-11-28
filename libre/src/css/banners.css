@@ -1,0 +1,47 @@
+.banner {
+  max-width: 896px;
+  max-height: 80px;
+  padding: 16px;
+  border-radius: 6px;
+  display: flex;
+  font-size: 14px;
+  font-family: "Quicksand", serif;
+  gap: 12px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+/*sucess icon*/
+
+.sucess {
+  background-color: #ecfdf5;
+}
+.sucessMainText {
+  color: #065f46;
+  font-weight: 600;
+  margin-top: -2.5px;
+}
+.sucessSecondText {
+  color: #047857;
+  font-weight: normal;
+  max-width: 832px;
+}
+
+/*warning icon*/
+
+.warning {
+  background-color: #fffbeb;
+}
+.warningMainText {
+  color: #92400e;
+  font-weight: 600;
+  margin-top: -2.5px;
+}
+.warningSecondText {
+  color: #b45309;
+  font-weight: normal;
+  max-width: 832px;
+}

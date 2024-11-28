@@ -1,5 +1,7 @@
 import { AiFillCheckCircle } from "react-icons/ai";
 import { AiFillWarning } from "react-icons/ai";
+import { AiFillCloseCircle } from "react-icons/ai";
+import { AiFillInfoCircle } from "react-icons/ai";
 
 export default function Banners({ type, title, text }) {
   function myTipe(value) {
@@ -7,6 +9,10 @@ export default function Banners({ type, title, text }) {
       return <AiFillCheckCircle style={{ color: "#34D399", width: "20px" }} />;
     } else if (value === "warning") {
       return <AiFillWarning style={{ color: "#FBBF24", width: "20px" }} />;
+    } else if (value === "error") {
+      return <AiFillCloseCircle style={{ color: "#F87171", width: "20px" }} />;
+    } else if (value === "neutral") {
+      return <AiFillInfoCircle style={{ color: "#60A5FA", width: "20px" }} />;
     }
   }
   return (

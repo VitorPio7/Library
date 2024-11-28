@@ -45,3 +45,31 @@
   font-weight: normal;
   max-width: 832px;
 }
+/*Error circle*/
+.error {
+  background-color: #fef2f2;
+}
+.errorMainText {
+  color: #92400e;
+  font-weight: 600;
+  margin-top: -2.5px;
+}
+.errorSecondText {
+  color: #b45309;
+  font-weight: normal;
+  max-width: 832px;
+}
+/*Neutral*/
+.neutral {
+  background-color: #eff6ff;
+}
+.neutralMainText {
+  color: #1e40af;
+  font-weight: 600;
+  margin-top: -2.5px;
+}
+.neutralSecondText {
+  color: #1c51b9;
+  font-weight: normal;
+  max-width: 832px;
+}

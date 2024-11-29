@@ -2,15 +2,19 @@ import "./css/App.css";
 import "./css/badgers.css";
 import "./css/banners.css";
 import "./css/card.css";
-
-import Card from "./components/Card";
+import "./css/testimonial.css";
+import Testimonial from "./components/Testimonial";
 function App() {
   return (
     <div className="div">
-      <Card
-        maintext="Easy Deployment"
-        bodyText="Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis."
-        animation={true}
+      <Testimonial
+        text1={
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed urna nulla vitae laoreet augue. Amet feugiat est integer dolor auctor adipiscing nunc urna, sit. "
+        }
+        name={"May Andersons"}
+        local={"Workcation, CTO"}
+        img={"./imgPerfil.png"}
+        type={"horizont"}
       />
     </div>
   );

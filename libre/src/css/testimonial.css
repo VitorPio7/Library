@@ -1,0 +1,79 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Quicksand", serif;
+}
+.container-horizont {
+  background-color: #2545b8;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+  width: 1358px;
+  height: 400px;
+}
+.container-vertical {
+  background-color: #2545b8;
+  position: relative;
+  display: flex;
+  flex-shrink: 0;
+  position: absolute;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 551px;
+  width: 376px;
+}
+
+.personImage-horizont {
+  flex-shrink: 0;
+  object-fit: cover;
+  margin-top: 40px;
+  margin-left: 35px;
+  max-width: 424px;
+  max-height: 504px;
+  position: absolute;
+}
+.personImage-vertical {
+  position: absolute;
+  max-width: 384px;
+  max-height: 246px;
+  top: -100px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.mainText-horizont {
+  color: #ffffff;
+  width: 800px;
+  height: 96px;
+  font-size: 24px;
+  margin-left: 500px;
+}
+.mainText-vertical {
+  color: #ffffff;
+  position: relative;
+  width: 344px;
+  height: 192px;
+  font-size: 24px;
+  font-weight: 500;
+}
+.name-horizont {
+  font-size: 16px;
+  margin-left: 500px;
+  font-weight: bold;
+  color: #ffffff;
+}
+.name-vertical {
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+}
+.local-horizont {
+  font-weight: medium;
+  margin-left: 500px;
+  color: #ffffff;
+}
+.local-vertical {
+  font-weight: medium;
+  color: #ffffff;
+}

@@ -1,0 +1,51 @@
+.mainDiv {
+  width: 384px;
+  height: 112px;
+}
+.firtText {
+  width: 384px;
+  height: 98px;
+  display: flex;
+  justify-content: center;
+
+  border-radius: 8px;
+  background-color: #a9229b;
+}
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 15px solid #a9229b;
+  margin-left: 20px;
+}
+.titleAndText {
+}
+.title {
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+}
+.text {
+  font-size: 14px;
+  max-width: 280px;
+  max-height: 80px;
+  color: white;
+}
+.titleAndText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+.firtText button {
+  width: 20px;
+  height: 22px;
+  font-size: 18px;
+  margin-top: 16px;
+  color: #d8d8d8;
+  border: none;
+  background-color: transparent;
+  font-weight: 600;
+  cursor: pointer;
+}

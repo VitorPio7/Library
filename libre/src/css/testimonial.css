@@ -77,3 +77,12 @@
   font-weight: medium;
   color: #ffffff;
 }
+.text-horizont {
+  display: flex;
+  flex-direction: column;
+}
+.icon-horizont {
+  display: flex;
+  align-items: center;
+  margin-left: 500px;
+}

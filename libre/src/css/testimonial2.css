@@ -1,0 +1,65 @@
+* {
+  font-family: "Quicksand", serif;
+}
+.head {
+}
+.testimonial2-horizont {
+  background-image: url("background1.png");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1358px;
+  height: 444px;
+  margin: 50px;
+}
+.testimonial2-vertical {
+  background-image: url("background2.png");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 376px;
+  height: 552px;
+  margin: 50px;
+}
+.subTestimonial-horizont {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  max-width: 1280px;
+  max-height: 236px;
+  gap: 50px;
+}
+.subTestimonial-vertical {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  max-width: 444px;
+  gap: 50px;
+}
+.mainInfo-horizont {
+  max-width: 730px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 24px;
+}
+.mainInfo-vertical {
+  max-width: 730px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 24px;
+}
+.myInfo-horizont {
+  display: flex;
+  gap: 5px;
+}
+.myInfo-vertical {
+  display: flex;
+  gap: 5px;
+}
+.name {
+  font-weight: 700;
+}

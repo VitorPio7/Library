@@ -3,18 +3,19 @@ import "./css/badgers.css";
 import "./css/banners.css";
 import "./css/card.css";
 import "./css/testimonial.css";
-import Testimonial from "./components/Testimonial";
+import "./css/testimonial2.css";
+import Testimonial2 from "./components/Testimonial2";
 function App() {
   return (
     <div className="div">
-      <Testimonial
-        text1={
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed urna nulla vitae laoreet augue. Amet feugiat est integer dolor auctor adipiscing nunc urna, sit. "
+      <Testimonial2
+        img={"logo.png"}
+        type={"vertical"}
+        info={
+          "“Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo expedita voluptas culpa sapiente alias molestiae. Numquam corrupti in laborum sed rerum et corporis.”"
         }
         name={"May Andersons"}
-        local={"Workcation, CTO"}
-        img={"./imgPerfil.png"}
-        type={"horizont"}
+        adress={"Workcation, CTO"}
       />
     </div>
   );

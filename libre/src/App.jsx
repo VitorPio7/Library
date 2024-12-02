@@ -12,6 +12,7 @@ function App() {
       <Tolltip1
         title="Archive notes"
         text="Lorem ipsum dolor sit amet consectetur adipisicing elit oluptatum tenetur."
+        type="light-green"
       />
     </div>
   );

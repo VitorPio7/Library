@@ -2,16 +2,16 @@
   width: 384px;
   height: 112px;
 }
-.firtText {
+.firtText-bold-pink {
   width: 384px;
   height: 98px;
   display: flex;
   justify-content: center;
-
+  color: #f462e6;
   border-radius: 8px;
   background-color: #a9229b;
 }
-.triangle {
+.triangle-bold-pink {
   width: 0;
   height: 0;
   border-left: 15px solid transparent;
@@ -19,7 +19,57 @@
   border-top: 15px solid #a9229b;
   margin-left: 20px;
 }
-.titleAndText {
+.firtText-bold-black {
+  width: 384px;
+  height: 98px;
+  color: #c7c7c7;
+  display: flex;
+  justify-content: center;
+  border-radius: 8px;
+  background-color: black;
+}
+.triangle-bold-black {
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 15px solid black;
+  margin-left: 20px;
+}
+.firtText-bold-blue {
+  width: 384px;
+  height: 98px;
+  display: flex;
+  color: #7ea6f2;
+  justify-content: center;
+  border-radius: 8px;
+  background-color: #1e40af;
+}
+.triangle-bold-blue {
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 15px solid #1e40af;
+  margin-left: 20px;
+}
+.firtText-bold-green {
+  width: 384px;
+  height: 98px;
+  display: flex;
+  color: #c1ffcf;
+  justify-content: center;
+
+  border-radius: 8px;
+  background-color: #47aa5d;
+}
+.triangle-bold-green {
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 15px solid #47aa5d;
+  margin-left: 20px;
 }
 .title {
   font-size: 14px;
@@ -38,7 +88,7 @@
   justify-content: center;
   gap: 10px;
 }
-.firtText button {
+button {
   width: 20px;
   height: 22px;
   font-size: 18px;
@@ -48,4 +98,118 @@
   background-color: transparent;
   font-weight: 600;
   cursor: pointer;
+}
+
+/*bold*/
+
+.firtText-light-white {
+  width: 384px;
+  height: 98px;
+  display: flex;
+  justify-content: center;
+  color: #6b7280;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+.firtText-light-white .title {
+  color: #6b7280;
+}
+.firtText-light-white .text {
+  color: #6b7280;
+}
+.triangle-light-white {
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 15px solid #ffffff;
+  margin-left: 20px;
+}
+
+.firtText-light-blue {
+  width: 384px;
+  height: 98px;
+  display: flex;
+  justify-content: center;
+  color: #1c51b9;
+  border-radius: 8px;
+  background-color: #e0e7ff;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+.firtText-light-blue .title {
+  color: #1c51b9;
+}
+.firtText-light-blue .text {
+  color: #1c51b9;
+}
+.firtText-light-blue button {
+  color: #1c51b9;
+}
+.triangle-light-blue {
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 15px solid #e0e7ff;
+  margin-left: 20px;
+}
+
+/*bold-pink*/
+
+.firtText-light-pink {
+  width: 384px;
+  height: 98px;
+  display: flex;
+  justify-content: center;
+  color: #c7369e;
+  border-radius: 8px;
+  background-color: #fff3fc;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+.firtText-light-pink .title {
+  color: #c7369e;
+}
+.firtText-light-pink .text {
+  color: #c7369e;
+}
+.firtText-light-pink button {
+  color: #c7369e;
+}
+.triangle-light-pink {
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 15px solid #fff3fc;
+  margin-left: 20px;
+}
+/*bold-green*/
+
+.firtText-light-green {
+  width: 384px;
+  height: 98px;
+  display: flex;
+  justify-content: center;
+  color: #3c8c4e;
+  border-radius: 8px;
+  background-color: #e7fff3;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+.firtText-light-green .title {
+  color: #3c8c4e;
+}
+.firtText-light-green .text {
+  color: #3c8c4e;
+}
+.firtText-light-green button {
+  color: #3c8c4e;
+}
+.triangle-light-green {
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 15px solid #e7fff3;
+  margin-left: 20px;
 }

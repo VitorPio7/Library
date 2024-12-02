@@ -1,12 +1,11 @@
 import { HiOutlineInbox } from "react-icons/hi";
 
-export default function Tooltip1({ title, text }) {
+export default function Tooltip1({ title, text, type }) {
   return (
     <div className="mainDiv">
-      <div className="firtText">
+      <div className={`firtText-${type}`}>
         <HiOutlineInbox
           style={{
-            color: "#F462E6",
             width: "24px",
             height: "24px",
             borderRadius: "10px",
@@ -20,7 +19,7 @@ export default function Tooltip1({ title, text }) {
         </div>
         <button>X</button>
       </div>
-      <div className="triangle"></div>
+      <div className={`triangle-${type}`}></div>
     </div>
   );
 }

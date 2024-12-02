@@ -5,7 +5,7 @@ import { AiFillInfoCircle } from "react-icons/ai";
 
 export default function Banners({ type, title, text }) {
   function myTipe(value) {
-    if (value === "sucess") {
+    if (value === "success") {
       return <AiFillCheckCircle style={{ color: "#34D399", width: "20px" }} />;
     } else if (value === "warning") {
       return <AiFillWarning style={{ color: "#FBBF24", width: "20px" }} />;

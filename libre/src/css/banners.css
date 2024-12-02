@@ -16,15 +16,15 @@
 
 /*sucess icon*/
 
-.sucess {
+.success {
   background-color: #ecfdf5;
 }
-.sucessMainText {
+.successMainText {
   color: #065f46;
   font-weight: 600;
   margin-top: -2.5px;
 }
-.sucessSecondText {
+.successSecondText {
   color: #047857;
   font-weight: normal;
   max-width: 832px;

@@ -5,15 +5,12 @@ import "./css/card.css";
 import "./css/testimonial.css";
 import "./css/testimonial2.css";
 import "./css/tooltip1.css";
-import Tolltip1 from "./components/Tooltip1";
+import "./css/toast.css";
+import Toast from "./components/Toast";
 function App() {
   return (
     <div className="div">
-      <Tolltip1
-        title="Archive notes"
-        text="Lorem ipsum dolor sit amet consectetur adipisicing elit oluptatum tenetur."
-        type="light-green"
-      />
+      <Toast title="Success" text="Your work has been saved" type="neutral" />
     </div>
   );
 }
